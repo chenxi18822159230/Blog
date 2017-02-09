@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>神州专车</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/main/index.css" />
+    <script type="text/javascript" src="/public/js/common/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="/public/js/main/index.js"></script>
+</head>
+<body>
+    <div class="userInfo">
+        <h2>用户信息</h2>
+        <p id="userTxt">user:{% if userInfo %}{{userInfo}}{%endif%}</p>
+    </div>
+    <div class="login">
+        <h2>登录</h2>
+        <p>name:  <input type="text" id="loginName" /></p>
+        <p>pwd:  <input type="text" id="loginPwd" /></p>
+        <button id="loginBtn">登录</button>
+    </div>
+    <div class="registe">
+        <h2>注册</h2>
+        <p>name:  <input type="text" id="registeName" /></p>
+        <p>pwd:  <input type="text" id="registePwd" /></p>
+        <p>repwd:  <input type="text" id="rePwd" /></p>
+        <button id="registeBtn">注册</button>
+    </div>
+
+
+</body>
+</html>

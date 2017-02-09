@@ -2,11 +2,11 @@
 
 ▲目录结构
 db              数据库存储目录
-models          数据库模型文件
+models          数据库表模型对象
 node_modules    node第三方模块
 public          静态文件 css js image
 routers         路由
-schemas         数据库结构文件
+schemas         数据库表结构文件
 views           模板视图
 app.js          启动
 

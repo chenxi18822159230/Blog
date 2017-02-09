@@ -1,0 +1,23 @@
+body,html{
+    font-family: Arial,FreeSans,Helvetica,sans-serif;
+    font-weight:bold;}
+.userInfo{
+    width: 250px;
+    height:100px;
+    border: 1px solid;
+    margin-top:10px;
+    text-align: center;
+    background-color: #fff;
+}
+.login{ width: 250px;
+    height:180px;
+    text-align: center;
+    border: 1px solid;
+    margin-top:10px;
+    background-color: #fff;}
+.registe{ width: 250px;
+    height:210px;
+    text-align: center;
+    border: 1px solid;
+    margin-top:10px;
+    background-color: #fff;}
